@@ -1,1 +1,10 @@
-body { font-family: sans-serif; padding: 20px; }
+
+body { font-family: Arial; background:#f0f5ff; padding:20px; }
+.title { text-align:center; font-size:40px; color:#3b57ff; }
+.container { display:flex; gap:20px; }
+.token-area { width:200px; background:white; padding:15px; border-radius:10px; }
+.token { background:#3b57ff; color:white; padding:10px; margin:5px 0; border-radius:8px; text-align:center; cursor:grab; }
+.workspace { flex:1; background:white; padding:20px; border-radius:10px; }
+.dropzone { min-height:60px; border:2px dashed #3b57ff; padding:10px; margin-bottom:10px; border-radius:10px; display:flex; flex-wrap:wrap; gap:10px; }
+.token.dropped { background:#ff8b00; }
+button { padding:10px 15px; margin-top:10px; }

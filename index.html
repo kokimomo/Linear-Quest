@@ -2,13 +2,38 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Linear Quest</title>
+<title>Linear Quest — Full Build A2+B3</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Linear Quest — Demo Build</h1>
-<p>This is a deploy-ready template. Replace with your customized version from the canvas.</p>
-<div id="app"></div>
+<h1 class="title">Linear Quest</h1>
+
+<div class="container">
+  <div class="token-area">
+    <h2>Drag Tokens</h2>
+    <div class="token" draggable="true">x</div>
+    <div class="token" draggable="true">1</div>
+    <div class="token" draggable="true">2</div>
+    <div class="token" draggable="true">3</div>
+    <div class="token" draggable="true">4</div>
+    <div class="token" draggable="true">5</div>
+    <div class="token" draggable="true">+</div>
+    <div class="token" draggable="true">-</div>
+    <div class="token" draggable="true">=</div>
+  </div>
+
+  <div class="workspace">
+    <h2>Build Your Equation</h2>
+    <div id="dropzone" class="dropzone"></div>
+    <button id="clear">Clear</button>
+
+    <h2>Solve</h2>
+    <input id="answer" placeholder="x = ?" />
+    <button id="check">Check</button>
+    <p id="feedback"></p>
+  </div>
+</div>
+
 <script src="script.js"></script>
 </body>
 </html>
